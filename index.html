@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Gregorian to Nepali Calendar Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/nepali-date-converter/dist/nepali-date-converter.umd.js"></script>
+</head>
+
+<body>
+    <h1>Gregorian to Nepali Calendar Converter</h1>
+    <marquee><span id="today"></span></marquee><br><br>
+    <form>
+        <label for="gregorianYear">Gregorian Year:</label>
+        <input type="text" id="gregorianYear" name="gregorianYear"><br><br>
+        <label for="gregorianMonth">Gregorian Month:</label>
+        <input type="text" id="gregorianMonth" name="gregorianMonth"><br><br>
+        <label for="gregorianDay">Gregorian Day:</label>
+        <input type="text" id="gregorianDay" name="gregorianDay"><br><br>
+        <button type="button" onclick="convertToNepali()">Convert to Nepali</button>
+    </form>
+    <br><br>
+    <p id="result"></p>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
